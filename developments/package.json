@@ -1,0 +1,23 @@
+{
+  "name": "virtus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp scss",
+    "watch": "gulp watch",
+    "file": "gulp file"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "devDependencies": {
+    "gulp-file-include": "^2.2.2"
+  },
+  "description": ""
+}
